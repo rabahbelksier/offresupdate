@@ -5,7 +5,7 @@
   "launchAsset": {
     "key": "bundle-1772053336833-840",
     "contentType": "application/javascript",
-    "url": "https://offrestest.up.railway.app/1772053336833-840/_expo/static/js/android/bundle.js"
+    "url": "https://offres365.up.railway.app/1772053336833-840/_expo/static/js/android/bundle.js"
   },
   "assets": [],
   "metadata": {},
@@ -26,7 +26,7 @@
         "adaptiveIcon": {
           "backgroundColor": "#FF6A00",
           "foregroundImage": "./assets/images/offres365-adaptive.png",
-          "foregroundImageUrl": "https://offrestest.up.railway.app/assets/images/offres365-adaptive.png"
+          "foregroundImageUrl": "https://offres365.up.railway.app/assets/images/offres365-adaptive.png"
         },
         "edgeToEdgeEnabled": true,
         "predictiveBackGestureEnabled": false,
@@ -101,11 +101,11 @@
       "androidStatusBar": {
         "backgroundColor": "#FF6A00"
       },
-      "iconUrl": "https://offrestest.up.railway.app/assets/images/offres365.png",
-      "hostUri": "offrestest.up.railway.app/android"
+      "iconUrl": "https://offres365.up.railway.app/assets/images/offres365.png",
+      "hostUri": "offres365.up.railway.app/android"
     },
     "expoGo": {
-      "debuggerHost": "offrestest.up.railway.app/android",
+      "debuggerHost": "offres365.up.railway.app/android",
       "developer": {
         "tool": "expo-cli",
         "projectRoot": "/home/runner/workspace"

@@ -5,7 +5,7 @@ import { QueryClient, QueryFunction } from "@tanstack/react-query";
  * This URL is hardcoded into the application to ensure it's preserved
  * in the APK after building.
  */
-export const BASE_URL = "https://offrestest.up.railway.app";
+export const BASE_URL = "https://offres365.up.railway.app";
 
 /**
  * Gets the base URL for the API server.

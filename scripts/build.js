@@ -45,7 +45,7 @@ function getDeploymentDomain() {
   }
 
   // Default to the Railway production domain
-  return "offrestest.up.railway.app";
+  return "offres365.up.railway.app";
 }
 
 function prepareDirectories(timestamp) {

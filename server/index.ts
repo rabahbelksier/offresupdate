@@ -22,7 +22,7 @@ function setupCors(app: express.Application) {
 
     // Mobile apps (APK) send requests without an origin header.
     // Allow all origins for API requests since this is a mobile backend.
-    // The production Railway URL is: https://offrestest.up.railway.app
+    // The production Railway URL is: https://offres365.up.railway.app
     res.header("Access-Control-Allow-Origin", origin || "*");
     res.header(
       "Access-Control-Allow-Methods",

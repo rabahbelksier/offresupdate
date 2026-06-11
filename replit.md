@@ -121,13 +121,13 @@ Preferred communication style: Simple, everyday language.
 
 ### Deployment (Railway Web Service)
 
-**Production URL**: `https://offrestest.up.railway.app`
+**Production URL**: `https://offres365.up.railway.app`
 
 **BASE_URL**: Hardcoded in `client/lib/query-client.ts` as a constant. This ensures the URL is embedded in the APK after building.
 
-**Data Flow**: Mobile App → `https://offrestest.up.railway.app/api/product` → Server fetches from AliExpress API → Returns data to App
+**Data Flow**: Mobile App → `https://offres365.up.railway.app/api/product` → Server fetches from AliExpress API → Returns data to App
 
-**Expo Go via Railway**: The app runs on Expo Go by connecting to the production server. The server serves static JS bundles and manifests from `static-build/`. When a request comes with the `expo-platform` header (ios/android), the server returns the corresponding manifest. The landing page at the root URL provides a QR code and deep link (`exps://offrestest.up.railway.app`) for opening in Expo Go.
+**Expo Go via Railway**: The app runs on Expo Go by connecting to the production server. The server serves static JS bundles and manifests from `static-build/`. When a request comes with the `expo-platform` header (ios/android), the server returns the corresponding manifest. The landing page at the root URL provides a QR code and deep link (`exps://offres365.up.railway.app`) for opening in Expo Go.
 
 **Static Build**: `scripts/build.js` generates production bundles and manifests in `static-build/`. It sets `EXPO_PUBLIC_DOMAIN` to the Railway domain and updates all URLs (bundles, assets, icons) to point to the production server.
 
