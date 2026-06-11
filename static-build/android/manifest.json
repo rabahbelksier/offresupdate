@@ -1,0 +1,120 @@
+{
+  "id": "3383aae4-c29c-42e2-b090-25b0fa70897f",
+  "createdAt": "2026-02-25T21:02:16.833Z",
+  "runtimeVersion": "exposdk:54.0.0",
+  "launchAsset": {
+    "key": "bundle-1772053336833-840",
+    "contentType": "application/javascript",
+    "url": "https://offrestest.up.railway.app/1772053336833-840/_expo/static/js/android/bundle.js"
+  },
+  "assets": [],
+  "metadata": {},
+  "extra": {
+    "eas": {
+      "projectId": "7a60693a-e5f2-4a7f-8760-5d328090cfd2"
+    },
+    "expoClient": {
+      "name": "Offers 365",
+      "slug": "offers-365-pro",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/images/offres365.png",
+      "scheme": "offers365",
+      "userInterfaceStyle": "automatic",
+      "newArchEnabled": true,
+      "android": {
+        "adaptiveIcon": {
+          "backgroundColor": "#FF6A00",
+          "foregroundImage": "./assets/images/offres365-adaptive.png",
+          "foregroundImageUrl": "https://offrestest.up.railway.app/assets/images/offres365-adaptive.png"
+        },
+        "edgeToEdgeEnabled": true,
+        "predictiveBackGestureEnabled": false,
+        "package": "com.offers365.app",
+        "intentFilters": [
+          {
+            "action": "SEND",
+            "data": {
+              "mimeType": "text/plain"
+            },
+            "category": [
+              "DEFAULT"
+            ]
+          }
+        ]
+      },
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.offers365.app"
+      },
+      "web": {
+        "output": "single",
+        "favicon": "./assets/images/splash-icon.png"
+      },
+      "plugins": [
+        [
+          "expo-splash-screen",
+          {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 200,
+            "resizeMode": "contain",
+            "backgroundColor": "#FF6A00",
+            "dark": {
+              "backgroundColor": "#1A1A1A"
+            }
+          }
+        ],
+        "expo-web-browser"
+      ],
+      "experiments": {
+        "reactCompiler": true
+      },
+      "owner": "offres365_pro",
+      "extra": {
+        "eas": {
+          "projectId": "7a60693a-e5f2-4a7f-8760-5d328090cfd2"
+        }
+      },
+      "_internal": {
+        "isDebug": false,
+        "projectRoot": "/home/runner/workspace",
+        "dynamicConfigPath": {},
+        "staticConfigPath": "/home/runner/workspace/app.json",
+        "packageJsonPath": "/home/runner/workspace/package.json",
+        "pluginHistory": {
+          "expo-splash-screen": {
+            "name": "expo-splash-screen",
+            "version": "31.0.13"
+          },
+          "expo-web-browser": {
+            "name": "expo-web-browser",
+            "version": "15.0.10"
+          }
+        }
+      },
+      "sdkVersion": "54.0.0",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "androidStatusBar": {
+        "backgroundColor": "#FF6A00"
+      },
+      "iconUrl": "https://offrestest.up.railway.app/assets/images/offres365.png",
+      "hostUri": "offrestest.up.railway.app/android"
+    },
+    "expoGo": {
+      "debuggerHost": "offrestest.up.railway.app/android",
+      "developer": {
+        "tool": "expo-cli",
+        "projectRoot": "/home/runner/workspace"
+      },
+      "packagerOpts": {
+        "dev": false
+      },
+      "mainModuleName": "client/index"
+    },
+    "scopeKey": "@anonymous/offers-365-pro-ebf56837-dda6-471e-ba86-7f780d768336"
+  }
+}

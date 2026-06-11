@@ -1,0 +1,80 @@
+Running "npm ci --include=dev" in /home/expo/workingdir/build directory
+npm error code EUSAGE
+npm error
+npm error `npm ci` can only install packages when your package.json and package-lock.json or npm-shrinkwrap.json are in sync. Please update your lock file with `npm install` before continuing.
+npm error
+npm error Invalid: lock file's expo-updates@55.0.21 does not satisfy expo-updates@0.28.18
+npm error Missing: @expo/config@11.0.13 from lock file
+npm error Missing: @expo/config-plugins@10.1.2 from lock file
+npm error Invalid: lock file's arg@4.1.3 does not satisfy arg@4.1.0
+npm error Invalid: lock file's expo-eas-client@55.0.5 does not satisfy expo-eas-client@0.14.4
+npm error Invalid: lock file's expo-manifests@55.0.16 does not satisfy expo-manifests@0.16.6
+npm error Invalid: lock file's expo-structured-headers@55.0.2 does not satisfy expo-structured-headers@4.1.0
+npm error Invalid: lock file's expo-updates-interface@55.1.6 does not satisfy expo-updates-interface@1.1.0
+npm error Invalid: lock file's glob@13.0.6 does not satisfy glob@10.5.0
+npm error Missing: @expo/config@11.0.13 from lock file
+npm error Invalid: lock file's expo-json-utils@55.0.2 does not satisfy expo-json-utils@0.15.0
+npm error Missing: @babel/code-frame@7.10.4 from lock file
+npm error Missing: @expo/config-plugins@10.1.2 from lock file
+npm error Missing: @expo/config-types@53.0.5 from lock file
+npm error Missing: @expo/json-file@9.1.5 from lock file
+npm error Missing: glob@10.5.0 from lock file
+npm error Missing: semver@7.8.0 from lock file
+npm error Missing: sucrase@3.35.0 from lock file
+npm error Missing: @expo/plist@0.3.5 from lock file
+npm error Missing: foreground-child@3.3.1 from lock file
+npm error Missing: jackspeak@3.4.3 from lock file
+npm error Missing: minimatch@9.0.9 from lock file
+npm error Missing: minipass@7.1.3 from lock file
+npm error Missing: package-json-from-dist@1.0.1 from lock file
+npm error Missing: signal-exit@4.1.0 from lock file
+npm error Missing: @isaacs/cliui@8.0.2 from lock file
+npm error Missing: @pkgjs/parseargs@0.11.0 from lock file
+npm error Missing: string-width@5.1.2 from lock file
+npm error Missing: string-width-cjs@4.2.3 from lock file
+npm error Missing: strip-ansi@7.2.0 from lock file
+npm error Missing: strip-ansi-cjs@6.0.1 from lock file
+npm error Missing: wrap-ansi@8.1.0 from lock file
+npm error Missing: wrap-ansi-cjs@7.0.0 from lock file
+npm error Missing: brace-expansion@2.1.0 from lock file
+npm error Missing: eastasianwidth@0.2.0 from lock file
+npm error Missing: emoji-regex@9.2.2 from lock file
+npm error Missing: ansi-regex@6.2.2 from lock file
+npm error Missing: commander@4.1.1 from lock file
+npm error Missing: ansi-styles@6.2.3 from lock file
+npm error Missing: @babel/code-frame@7.10.4 from lock file
+npm error Missing: @expo/config-types@53.0.5 from lock file
+npm error Missing: @expo/json-file@9.1.5 from lock file
+npm error Missing: semver@7.8.0 from lock file
+npm error Missing: sucrase@3.35.0 from lock file
+npm error Invalid: lock file's @expo/plist@0.5.3 does not satisfy @expo/plist@0.3.5
+npm error Missing: jackspeak@3.4.3 from lock file
+npm error Invalid: lock file's minimatch@10.2.5 does not satisfy minimatch@9.0.9
+npm error Missing: @isaacs/cliui@8.0.2 from lock file
+npm error Missing: string-width@5.1.2 from lock file
+npm error Missing: strip-ansi@7.2.0 from lock file
+npm error Missing: wrap-ansi@8.1.0 from lock file
+npm error Invalid: lock file's brace-expansion@5.0.6 does not satisfy brace-expansion@2.1.0
+npm error Missing: emoji-regex@9.2.2 from lock file
+npm error Missing: ansi-regex@6.2.2 from lock file
+npm error Missing: commander@4.1.1 from lock file
+npm error Missing: ansi-styles@6.2.3 from lock file
+npm error
+npm error Clean install a project
+npm error
+npm error Usage:
+npm error npm ci
+npm error
+npm error Options:
+npm error [--install-strategy <hoisted|nested|shallow|linked>] [--legacy-bundling]
+npm error [--global-style] [--omit <dev|optional|peer> [--omit <dev|optional|peer> ...]]
+npm error [--include <prod|dev|optional|peer> [--include <prod|dev|optional|peer> ...]]
+npm error [--strict-peer-deps] [--foreground-scripts] [--ignore-scripts] [--no-audit]
+npm error [--no-bin-links] [--no-fund] [--dry-run]
+npm error [-w|--workspace <workspace-name> [-w|--workspace <workspace-name> ...]]
+npm error [-ws|--workspaces] [--include-workspace-root] [--install-links]
+npm error
+npm error aliases: clean-install, ic, install-clean, isntall-clean
+npm error
+npm error Run "npm help ci" for more info
+npm error A complete log of this run can be found in: /home/expo/.npm/_logs/2026-05-13T20_04_27_348Z-debug-0.log

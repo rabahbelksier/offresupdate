@@ -1,0 +1,124 @@
+{
+  "expo": {
+    "name": "Offers 365",
+    "slug": "offers-365-all",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/offres365.png",
+    "scheme": "offers365",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 11,
+      "enableProguardInReleaseBuilds": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6A00",
+        "foregroundImage": "./assets/images/offres365-adaptive.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.offers365.app",
+      "intentFilters": [
+        {
+          "action": "SEND",
+          "data": {
+            "mimeType": "text/plain"
+          },
+          "category": [
+            "DEFAULT"
+          ]
+        }
+      ],
+      "permissions": [
+        "android.permission.INTERNET",
+        "com.google.android.gms.permission.AD_ID",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE",
+        "android.permission.POST_NOTIFICATIONS"
+      ],
+      "blockedPermissions": [
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.offers365.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "v9wttpbfk9.skadnetwork"
+          },
+          {
+            "SKAdNetworkIdentifier": "n38lu8286q.skadnetwork"
+          }
+        ]
+      }
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/splash-icon.png"
+    },
+    "plugins": [
+      "./plugins/withAdIdPermission",
+      "./plugins/withAndroidWidget",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF",
+          "dark": {
+            "backgroundColor": "#1C1C1E"
+          }
+        }
+      ],
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/offres365.png",
+          "color": "#FF6A00",
+          "defaultChannel": "default",
+          "sounds": [
+            "./assets/sounds/notification.mp3"
+          ]
+        }
+      ],
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "2523000324801063",
+          "clientToken": "29e34580a6f694670c0f310d46392c3f",
+          "displayName": "Offres 365",
+          "scheme": "fb2523000324801063",
+          "advertiserIDCollectionEnabled": true,
+          "autoLogAppEventsEnabled": true,
+          "isAutoInitEnabled": true
+        }
+      ]
+    ],
+    "experiments": {
+      "reactCompiler": true
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6a569cd5-9b06-4750-95c1-8f65687e521b",
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "owner": "offres_365",
+    "extra": {
+      "eas": {
+        "projectId": "6a569cd5-9b06-4750-95c1-8f65687e521b"
+      }
+    }
+  }
+}
